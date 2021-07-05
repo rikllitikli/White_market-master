@@ -562,7 +562,7 @@ footer {
   transition: 0.5s; }
 
 .index_slide_one {
-  background-image: url("../img/1WM.svg");
+  background-image: url("../img/1WM.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -598,7 +598,7 @@ footer {
     transition: 0.3s; }
 
 .index_slide_two {
-  background-image: url("../img/2WM.svg");
+  background-image: url("../img/2WM.jpg");
   text-transform: uppercase;
   background-repeat: no-repeat;
   background-size: cover;
