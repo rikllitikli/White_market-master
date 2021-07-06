@@ -568,6 +568,12 @@ footer {
   background-size: cover;
   background-position: center top;
   padding: 239px 0 182px; }
+  @media screen and (max-width: 767px) {
+    .index_slide_one {
+      padding: 239px 0 186px; } }
+  @media screen and (max-width: 375px) {
+    .index_slide_one {
+      padding: 239px 0 221px; } }
   .index_slide_one h1 {
     line-height: 96px;
     color: white;

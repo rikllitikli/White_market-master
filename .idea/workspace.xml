@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Ruby27-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка (2)/css/style.scss" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,7 +65,7 @@
       <workItem from="1625515787883" duration="1645000" />
       <workItem from="1625569241538" duration="12358000" />
       <workItem from="1625585297012" duration="49000" />
-      <workItem from="1625585363070" duration="1849000" />
+      <workItem from="1625585363070" duration="2644000" />
     </task>
     <task id="LOCAL-00001" summary="p">
       <created>1625511110830</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625586264647</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="p">
+      <created>1625587286357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625587286358</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -679,6 +679,12 @@ footer{
   background-size: cover;
   background-position: center top;
   padding: 239px 0 182px;
+  @include max-screen(767px){
+    padding: 239px 0 186px;
+  }
+  @include max-screen(375px){
+    padding: 239px 0 221px;
+  }
   h1{
     line-height: 96px;
     color: white;
