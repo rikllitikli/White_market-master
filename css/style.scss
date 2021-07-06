@@ -1375,7 +1375,26 @@ a{
 
   .owl-nav .owl-prev{
     position: absolute;
-    left: 15px;
+    left: 30px;
+    bottom: 100px;
+    @include max-screen(540px){
+      left: 0;
+      bottom: -5px;
+    }
+  }
+
+  .owl-nav .owl-prev:hover{
+    left: 25px;
+    transition: 0.5s;
+    @include max-screen(540px){
+      left: 0;
+      bottom: -5px;
+    }
+  }
+
+  .owl-nav .owl-next {
+    position: absolute;
+    right: 30px;
     bottom: 100px;
     @include max-screen(540px){
       right: 0;
@@ -1383,10 +1402,9 @@ a{
     }
   }
 
-  .owl-nav .owl-next {
-    position: absolute;
-    right: 15px;
-    bottom: 100px;
+  .owl-nav .owl-next:hover{
+    right: 25px;
+    transition: 0.5s;
     @include max-screen(540px){
       right: 0;
       bottom: -5px;
@@ -1401,6 +1419,12 @@ a{
     height: 40px;
   }
 
+  .owl-nav .owl-prev:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+
   .owl-nav .owl-next:before {
     content: "";
     display: inline-block;
@@ -1409,7 +1433,11 @@ a{
     height: 40px;
   }
 
-
+  .owl-nav .owl-next:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
+  }
   .owl-drag {
     text-align: center;
   }
@@ -2060,6 +2088,19 @@ h2{
       right: -24px;
     }
   }
+  .owl-nav .owl-next:hover{
+    right: -85px;
+    transition: 0.5s;
+    @include max-screen(1120px){
+      right: -45px;
+    }
+    @include max-screen(767px){
+      right: -55px;
+    }
+    @include max-screen(575px){
+      right: -24px;
+    }
+  }
   .owl-nav .owl-prev {
     position: absolute;
     left: -80px;
@@ -2073,6 +2114,20 @@ h2{
       left: -24px;
     }
   }
+  .owl-nav .owl-prev:hover{
+    left: -85px;
+    transition: 0.5s;
+    @include max-screen(1120px){
+      left: -50px;
+    }
+    @include max-screen(767px){
+      left: -55px;
+    }
+    @include max-screen(575px){
+      left: -24px;
+    }
+
+  }
   .owl-nav .owl-prev:before {
     content: "";
     display: inline-block;
@@ -2081,12 +2136,23 @@ h2{
     height: 40px;
   }
 
+  .owl-nav .owl-prev:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+
   .owl-nav .owl-next:before {
     content: "";
     display: inline-block;
     background-image: url("../img/right.png");
     width: 22px;
     height: 40px;
+  }
+  .owl-nav .owl-next:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
   }
 
 }

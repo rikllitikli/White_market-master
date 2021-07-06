@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c280d5-44f4-4594-805e-60e5bff0c30c" name="Default Changelist" comment="p">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/2dd4a4bf72cce9671af407324b574afa57286fc5/cxcx.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/2dd4a4bf72cce9671af407324b574afa57286fc5/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consultation.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2dd4a4bf72cce9671af407324b574afa57286fc5/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/2dd4a4bf72cce9671af407324b574afa57286fc5/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market.html" beforeDir="false" afterPath="$PROJECT_DIR$/market.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/training.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
       <workItem from="1625515787883" duration="1645000" />
       <workItem from="1625569241538" duration="12358000" />
       <workItem from="1625585297012" duration="49000" />
-      <workItem from="1625585363070" duration="809000" />
+      <workItem from="1625585363070" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="p">
       <created>1625511110830</created>
@@ -116,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625516839976</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="p">
+      <created>1625586264647</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625586264647</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
