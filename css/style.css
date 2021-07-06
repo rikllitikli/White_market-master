@@ -499,6 +499,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
   height: 287px; }
   @media screen and (max-width: 991px) {
     .market_price {
@@ -642,6 +643,11 @@ footer {
   @media screen and (max-width: 411px) {
     .carusel_i .owl-nav .owl-next {
       right: 10px; } }
+.carusel_i .owl-nav .owl-next:hover {
+  right: 25px; }
+  @media screen and (max-width: 411px) {
+    .carusel_i .owl-nav .owl-next:hover {
+      right: 7px; } }
 .carusel_i .owl-nav .owl-prev {
   position: absolute;
   left: 30px;
@@ -649,18 +655,32 @@ footer {
   @media screen and (max-width: 411px) {
     .carusel_i .owl-nav .owl-prev {
       left: 10px; } }
+.carusel_i .owl-nav .owl-prev:hover {
+  left: 25px;
+  transition: 1s; }
+  @media screen and (max-width: 411px) {
+    .carusel_i .owl-nav .owl-prev:hover {
+      left: 7px; } }
 .carusel_i .owl-nav .owl-prev:before {
   content: "";
   display: inline-block;
   background-image: url("../img/left.png");
   width: 22px;
   height: 40px; }
+.carusel_i .owl-nav .owl-prev:hover {
+  filter: alpha(Opacity=50);
+  opacity: 0.5;
+  transition: 0.3s; }
 .carusel_i .owl-nav .owl-next:before {
   content: "";
   display: inline-block;
   background-image: url("../img/right.png");
   width: 22px;
   height: 40px; }
+.carusel_i .owl-nav .owl-next:hover {
+  filter: alpha(Opacity=50);
+  opacity: 0.5;
+  transition: 0.3s; }
 .carusel_i .owl-drag {
   text-align: center; }
 .carusel_i .owl-dots {

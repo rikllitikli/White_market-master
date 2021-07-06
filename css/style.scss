@@ -23,6 +23,8 @@
 .eapps-link{
   display: none!important;
 }
+
+
 header{
   position: sticky;
   top: 0;
@@ -594,6 +596,7 @@ footer{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
   height: 287px;
   @include max-screen(991px){
     height: 100%;
@@ -666,6 +669,9 @@ footer{
   height: 197px;
   transition: 0.5s;
 }
+
+
+
 
 .index_slide_one{
   background-image: url("../img/1WM.png");
@@ -769,6 +775,12 @@ footer{
       right: 10px;
     }
   }
+  .owl-nav .owl-next:hover{
+    right: 25px;
+    @include max-screen(411px){
+      right: 7px;
+    }
+  }
 
   .owl-nav .owl-prev {
     position: absolute;
@@ -776,6 +788,13 @@ footer{
     bottom: -180px;
     @include max-screen(411px){
       left: 10px;
+    }
+  }
+  .owl-nav .owl-prev:hover{
+    left: 25px;
+    transition: 1s;
+    @include max-screen(411px){
+      left: 7px;
     }
   }
 
@@ -787,12 +806,24 @@ footer{
     height: 40px;
   }
 
+  .owl-nav .owl-prev:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+
   .owl-nav .owl-next:before {
   content: "";
     display: inline-block;
     background-image: url("../img/right.png");
     width: 22px;
     height: 40px;
+  }
+
+  .owl-nav .owl-next:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5;
+    transition: 0.3s;
   }
 
   .owl-drag {
